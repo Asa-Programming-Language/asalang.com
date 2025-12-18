@@ -1,4 +1,4 @@
-// Auto-expand modules tab
+// Theme setup
 (function() {
     // Wait for Natural Docs to initialize
     var originalOnLoad = NDLoader.OnLoad_Frame;
@@ -20,6 +20,5 @@
             var initialTheme = (systemTheme === 1) ? "Dark" : "Light";
             NDThemes.SetCurrentTheme(initialTheme, false);
         }
-
     };
 })();

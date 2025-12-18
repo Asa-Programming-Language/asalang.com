@@ -1,1 +1,0 @@
-﻿NDSummary.OnToolTipsLoaded("AsaModule:ColorPrint.Fore",{38:"<div class=\"NDToolTip TModule LAsa\"><div class=\"TTSummary\">Module containing the foreground color codes used for printing colors</div></div>"});

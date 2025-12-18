@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("uin",["Function"],[["uint",,[["Casts",,,,0,"File:Builtin/asa.asa:Casts.uint","AsaModule:Casts:uint"]]],["uint16",,[["Casts",,,,0,"File:Builtin/asa.asa:Casts.uint16","AsaModule:Casts:uint16"]]],["uint64",,[["Casts",,,,0,"File:Builtin/asa.asa:Casts.uint64","AsaModule:Casts:uint64"]]]]);

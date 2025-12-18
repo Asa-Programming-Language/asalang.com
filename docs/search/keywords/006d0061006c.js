@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("mal",["Function"],[["malloc",,[["Memory",,,,0,"File:Builtin/asa.asa:Memory.malloc","AsaModule:Memory:malloc"]]]]);

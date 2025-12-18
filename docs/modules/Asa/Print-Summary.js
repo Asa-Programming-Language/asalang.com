@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("AsaModule:Print","Print");NDSummary.OnSummaryLoaded("AsaModule:Print",[["Asa","Asa"]],[["Functions","Function"],["Groups","Group"],["Modules","Module"]],[[45,0,2,"Print"],[46,0,1,"Functions","Functions"],[47,0,0,"print","print"],[48,0,0,"printl","printl"],[49,0,0,"newline","newline"],[50,0,0,"print","print(2)"],[51,0,0,"printl","printl(2)"]]);

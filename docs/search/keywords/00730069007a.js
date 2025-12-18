@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("siz",["Function"],[["size",,[["string",,,,0,"File:Builtin/asa.asa:string.size","AsaClass:string:size"]]]]);

@@ -1,1 +1,0 @@
-﻿NDContentPage.OnToolTipsLoaded({5:"<div class=\"NDToolTip TStruct LAsa\"><div class=\"TTSummary\">The string data type</div></div>"});

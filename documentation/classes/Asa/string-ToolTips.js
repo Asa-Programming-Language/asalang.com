@@ -1,1 +1,0 @@
-﻿NDContentPage.OnToolTipsLoaded({19:"<div class=\"NDToolTip TFunction LAsa\"><div id=\"NDPrototype19\" class=\"NDPrototype\"><div class=\"PSection PPlainSection\">printl :: ()</div></div><div class=\"TTSummary\">Prints the string to the terminal <b>with</b> a newline</div></div>"});

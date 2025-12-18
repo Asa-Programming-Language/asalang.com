@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("int",["Function"],[["int",,[["Casts",,,,0,"File:Builtin/asa.asa:Casts.int","AsaModule:Casts:int"]]],["int64",,[["Casts",,,,0,"File:Builtin/asa.asa:Casts.int64","AsaModule:Casts:int64"]]]]);

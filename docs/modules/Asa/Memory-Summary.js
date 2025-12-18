@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("AsaModule:Memory","Memory");NDSummary.OnSummaryLoaded("AsaModule:Memory",[["Asa","Asa"]],[["Functions","Function"],["Groups","Group"],["Modules","Module"]],[[92,0,2,"Memory"],[93,0,1,"Functions","Functions"],[94,0,0,"malloc","malloc"],[95,0,0,"free","free"]]);

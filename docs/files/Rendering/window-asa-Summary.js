@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("File:Rendering/window.asa","window.asa");NDSummary.OnSummaryLoaded("File:Rendering/window.asa",[["Asa","Asa"]],[["Modules","Module"]],[[1,0,0,"Window","Window"]]);

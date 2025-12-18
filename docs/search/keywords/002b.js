@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("+",["Operator"],[["+",,[["string",,,,0,"File:Builtin/asa.asa:string.+","AsaClass:string:+"]]]]);

@@ -1,0 +1,291 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/home/sam/Code/asalang.org/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ActivateLinkFromKeyboard	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+ActivateSearchField	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+AddQueryParams	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	m
+AddToUserSelectedThemeHistory	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+AnonymousFunction010c1ad40100	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	f	function:OnSearchFieldChange
+AnonymousFunction010c1ad40200	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	f	function:OnSearchFieldChange
+AnonymousFunction7312f3960100	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	c	class:OnLinkMouseOver
+AnonymousFunction7de129fd0100	nd-config/SamsStyles/theme-toggle.js	/^                newLink.addEventListener("click", function(event) {$/;"	f
+AnonymousFunction94e6ff040100	docs/styles/SamsStyles/theme-toggle.js	/^(function(){var originalStart=NDThemeSwitcher.Start;NDThemeSwitcher.Start=function(){originalSta/;"	f
+AnonymousFunctionf8bc146c0100	docs/styles/DefaultJS/NDSummary.js	/^"use strict";var NDSummary=new function(){this.Start=function(){this.entryMouseEnterEventHandler/;"	f	function:OnLocationChange
+AnonymousFunctionf8bc146c0200	docs/styles/DefaultJS/NDSummary.js	/^"use strict";var NDSummary=new function(){this.Start=function(){this.entryMouseEnterEventHandler/;"	c	class:OnEntryMouseEnter
+Build	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+Build	docs/styles/DefaultJS/NDSummary.js	/^"use strict";var NDSummary=new function(){this.Start=function(){this.entryMouseEnterEventHandler/;"	m
+BuildEntries	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+BuildKeyword	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+BuildMenu	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+BuildMoreResultsEntry	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+BuildNoMatchesStatus	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+BuildResults	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+BuildSearchingStatus	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+CalculateWideFormPrototypeWidths	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	m
+ChangePrototypeToNarrowForm	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	m
+ChangePrototypeToWideForm	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	m
+CleanUpMenuSections	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+ClearResults	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+CloseMenu	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+CloseMenu	docs/styles/SamsStyles/theme-toggle.js	/^(function(){var originalStart=NDThemeSwitcher.Start;NDThemeSwitcher.Start=function(){originalSta/;"	f	function:NDThemeSwitcher
+CloseMenu	nd-config/SamsStyles/theme-toggle.js	/^    NDThemeSwitcher.CloseMenu = function() {};$/;"	f	function:NDThemeSwitcher
+Constructor	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	m	class:NDLocation
+Constructor	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuOffsetPathIterator
+CurrentContainer	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuOffsetPathIterator
+CurrentContainerHashPath	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuOffsetPathIterator
+CurrentContainerIndex	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuOffsetPathIterator
+CurrentEntry	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuOffsetPathIterator
+DeactivateSearchField	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+DisableThemes	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+Duplicate	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuOffsetPathIterator
+EntityDecode	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	m	class:String
+ForceTheme	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+GetAllPrefixesIndex	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+GetComputedPixelWidth	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	m
+GetComputedStyle	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	m
+GetFullOffsets	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	m
+GetIterator	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuHashPath
+GetIterator	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuOffsetPath
+GetMatchingPrefixes	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+GetPrototypeIDNumber	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	m
+GetQueryParam	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	m
+GetSearchInterpretations	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+GetSystemTheme	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+GetTabElement	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+GoToOffsets	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+GoToTab	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+HideResults	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+InTabs	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuOffsetPathIterator
+IsEmpty	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuHashPath
+IsEmpty	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuOffsetPath
+IsNeeded	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+KeywordMatchesInterpretations	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+LoadJS	docs/styles/main.js	/^"use strict";var NDLoader=new function(){this.JSLinks_All=["DefaultJS\/NDCore.js","DefaultJS\/ND/;"	m
+LoadJSArray	docs/styles/main.js	/^"use strict";var NDLoader=new function(){this.JSLinks_All=["DefaultJS\/NDCore.js","DefaultJS\/ND/;"	m
+LoadJavaScript	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	m
+LoadMenuSection	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+LoadMoreResults	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+LoadPrefixData	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+LoadUserSelectedThemeHistory	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+MakeOffsetPath	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuHashPath
+MakePrefix	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+MemberMatchesInterpretations	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+MenuIsOpen	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+MenuSection	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+NDContent	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:Start.pageElements
+NDFooter	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:Start.pageElements
+NDHeader	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:Start.pageElements
+NDLocation	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	c
+NDMenu	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:Start.pageElements
+NDMenuHashPath	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	c
+NDMenuOffsetPath	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	c
+NDMenuOffsetPathIterator	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	c
+NDMenuSizer	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:Start.pageElements
+NDSearchField	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:Start.pageElements
+NDSummary	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:Start.pageElements
+NDSummarySizer	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:Start.pageElements
+NDThemeSwitcher	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:Start.pageElements
+NavigationType	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuOffsetPathIterator
+NeedToLoad	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuOffsetPathIterator
+Next	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m	class:NDMenuOffsetPathIterator
+NormalizeHash	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	m
+OnAvailableThemesChange	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+OnBlur	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+OnEffectiveThemeChange	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	m
+OnEffectiveThemeChange	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+OnEffectiveThemeChange	docs/styles/DefaultJS/NDHomePage.js	/^"use strict";var NDHomePage=new function(){this.Start=function(){this.messageEventHandler=NDHome/;"	m
+OnEntryMouseEnter	docs/styles/DefaultJS/NDSummary.js	/^"use strict";var NDSummary=new function(){this.Start=function(){this.entryMouseEnterEventHandler/;"	m
+OnEntryMouseLeave	docs/styles/DefaultJS/NDSummary.js	/^"use strict";var NDSummary=new function(){this.Start=function(){this.entryMouseEnterEventHandler/;"	m
+OnHashChange	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+OnKeyDown	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+OnLinkMouseOut	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	m
+OnLinkMouseOver	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	m
+OnLoad	docs/styles/main.js	/^"use strict";var NDLoader=new function(){this.JSLinks_All=["DefaultJS\/NDCore.js","DefaultJS\/ND/;"	m
+OnLoad_All	docs/styles/main.js	/^"use strict";var NDLoader=new function(){this.JSLinks_All=["DefaultJS\/NDCore.js","DefaultJS\/ND/;"	m
+OnLoad_Content	docs/styles/main.js	/^"use strict";var NDLoader=new function(){this.JSLinks_All=["DefaultJS\/NDCore.js","DefaultJS\/ND/;"	m
+OnLoad_Frame	docs/styles/SamsStyles/custom.js	/^(function(){var originalOnLoad=NDLoader.OnLoad_Frame;NDLoader.OnLoad_Frame=function(){if(origina/;"	f	function:NDLoader
+OnLoad_Frame	docs/styles/SamsStyles/themes.js	/^(function(){var originalOnLoad=NDLoader.OnLoad_Frame;NDLoader.OnLoad_Frame=function(){NDFramePag/;"	f	function:NDLoader
+OnLoad_Frame	docs/styles/main.js	/^"use strict";var NDLoader=new function(){this.JSLinks_All=["DefaultJS\/NDCore.js","DefaultJS\/ND/;"	m
+OnLoad_Frame	nd-config/SamsStyles/custom.js	/^    NDLoader.OnLoad_Frame = function() {$/;"	f	function:NDLoader
+OnLoad_Frame	nd-config/SamsStyles/themes.js	/^    NDLoader.OnLoad_Frame = function() {$/;"	f	function:NDLoader
+OnLoad_Home	docs/styles/main.js	/^"use strict";var NDLoader=new function(){this.JSLinks_All=["DefaultJS\/NDCore.js","DefaultJS\/ND/;"	m
+OnLocationChange	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+OnLocationChange	docs/styles/DefaultJS/NDSummary.js	/^"use strict";var NDSummary=new function(){this.Start=function(){this.entryMouseEnterEventHandler/;"	m
+OnLocationsLoaded	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+OnMenuEntryClick	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+OnMessage	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	m
+OnMessage	docs/styles/DefaultJS/NDHomePage.js	/^"use strict";var NDHomePage=new function(){this.Start=function(){this.messageEventHandler=NDHome/;"	m
+OnMouseDown	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+OnPageTitleLoaded	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+OnPrefixDataLoaded	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+OnPrefixIndexLoaded	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+OnResize	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	m
+OnResize	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+OnSearchFieldChange	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+OnSearchFieldFocus	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+OnSearchFieldKey	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+OnSectionLoaded	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+OnSizerMouseMove	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+OnSizerMouseUp	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+OnSummaryLoaded	docs/styles/DefaultJS/NDSummary.js	/^"use strict";var NDSummary=new function(){this.Start=function(){this.entryMouseEnterEventHandler/;"	m
+OnSwitcherClick	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+OnSystemThemeChange	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+OnTabsLoaded	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+OnToolTipsLoaded	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	m
+OnToolTipsLoaded	docs/styles/DefaultJS/NDSummary.js	/^"use strict";var NDSummary=new function(){this.Start=function(){this.entryMouseEnterEventHandler/;"	m
+OnUpdateLayout	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+OnUpdateLayout	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+OnUpdateLayout	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+OpenMenu	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+OpenMenu	docs/styles/SamsStyles/theme-toggle.js	/^(function(){var originalStart=NDThemeSwitcher.Start;NDThemeSwitcher.Start=function(){originalSta/;"	f	function:NDThemeSwitcher
+OpenMenu	nd-config/SamsStyles/theme-toggle.js	/^    NDThemeSwitcher.OpenMenu = function() {};$/;"	f	function:NDThemeSwitcher
+PositionMenu	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+PositionResults	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+PrefixToDataFile	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+PrefixToHex	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+ReformatPrototypes	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	m
+RemoveScriptElement	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	m
+RemoveUnusedPrefixObjects	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+ResetToolTip	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	m
+ResetToolTip	docs/styles/DefaultJS/NDSummary.js	/^"use strict";var NDSummary=new function(){this.Start=function(){this.entryMouseEnterEventHandler/;"	m
+ResizeTabs	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+SaveUserSelectedThemeHistory	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+ScrollEntryIntoView	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+SearchFieldIsActive	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+SetAvailableThemes	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+SetCurrentTheme	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+ShouldTabsShow	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+ShowAdditionalChildren	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	m
+ShowResults	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+ShowToolTip	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	m
+ShowToolTip	docs/styles/DefaultJS/NDSummary.js	/^"use strict";var NDSummary=new function(){this.Start=function(){this.entryMouseEnterEventHandler/;"	m
+SizePanelToContent	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+SizeSummaryToContent	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+Start	docs/styles/DefaultJS/NDContentPage.js	/^"use strict";var NDContentPage=new function(){this.Start=function(retrying){if(!retrying){this.r/;"	m
+Start	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+Start	docs/styles/DefaultJS/NDHomePage.js	/^"use strict";var NDHomePage=new function(){this.Start=function(){this.messageEventHandler=NDHome/;"	m
+Start	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+Start	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+Start	docs/styles/DefaultJS/NDSummary.js	/^"use strict";var NDSummary=new function(){this.Start=function(){this.entryMouseEnterEventHandler/;"	m
+Start	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+Start	docs/styles/SamsStyles/theme-toggle.js	/^(function(){var originalStart=NDThemeSwitcher.Start;NDThemeSwitcher.Start=function(){originalSta/;"	f	function:NDThemeSwitcher
+Start	nd-config/SamsStyles/theme-toggle.js	/^    NDThemeSwitcher.Start = function() {$/;"	f	function:NDThemeSwitcher
+String	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	c
+SummaryIsVisible	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+ToggleParent	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+TotalMatchesGreaterThan	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+Update	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+UpdateLayout	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+UpdatePageTitle	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	m
+UpdateSelection	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	m
+UpdateTabs	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	m
+UpdateVisibility	docs/styles/DefaultJS/NDThemes.js	/^"use strict";var NDThemes=new function(){this.SetCurrentTheme=function(themeID,userSelected){var/;"	m
+completed	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	p	class:Build.result
+completed	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	p	class:BuildEntries.result
+contents	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	p	class:LoadMenuSection.entry
+domLoaderID	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	p	class:LoadMenuSection.entry
+entry	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	c	class:LoadMenuSection
+file	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	p	class:LoadMenuSection.entry
+html	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	p	class:BuildResults.results
+ns0098812d0101	docs/styles/Default/images/search-class-black-150.svg	/^<svg width="12" height="12" version="1.1" viewBox="0 0 18 18" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns022b7e010101	docs/styles/Default/images/theme-menu-light.svg	/^<svg width="25" height="25" version="1.1" viewBox="0 0 25 25" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns02b691970101	docs/styles/Default/images/theme-menu-autolightblack.svg	/^<svg width="25" height="25" version="1.1" viewBox="0 0 25 25" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns0547738e0101	docs/styles/Default/images/menu-tab-modules-dark-selected-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns08e83d2c0101	docs/styles/Default/images/menu-tab-packages.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns09c8c4100101	docs/styles/Default/images/theme-switcher.svg	/^<svg width="25" height="25" version="1.1" viewBox="0 0 25 25" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns0faea1bb0101	docs/styles/Default/images/menu-tab-packages-dark.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns1a2d2d1d0101	docs/styles/Default/images/menu-folder-arrow.svg	/^<svg width="6" height="7" version="1.1" viewBox="0 0 6 7" xmlns="http:\/\/www.w3.org\/2000\/svg"/;"	n	uri:http://www.w3.org/2000/svg
+ns215e710b0101	docs/styles/Default/images/theme-menu-dark.svg	/^<svg width="25" height="25" version="1.1" viewBox="0 0 25 25" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns21fb5a4a0101	docs/styles/Default/images/menu-tab-classes-dark.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns290912d10101	docs/styles/Default/images/menu-tab-packages-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns2fae122f0101	docs/styles/Default/images/menu-tab-packages-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns35b0dc050101	docs/styles/Default/images/menu-tab-classes-dark-selected-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns365ca05b0101	docs/styles/Default/images/menu-tab-classes.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns3b7c8ed90101	docs/styles/Default/images/search-group-arrow-black.svg	/^<svg width="6" height="7" version="1.1" viewBox="0 0 6 7" xmlns="http:\/\/www.w3.org\/2000\/svg"/;"	n	uri:http://www.w3.org/2000/svg
+ns3c55db630101	docs/styles/Default/images/menu-tab-classes-dark-selected-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns3cd0c2f10101	docs/styles/Default/images/menu-tab-packages-dark-selected.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns3e7d26e00101	docs/styles/Default/images/menu-tab-packages-dark-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns3e8c304c0101	docs/styles/Default/images/menu-folder-arrow-dark.svg	/^<svg width="6" height="7" version="1.1" viewBox="0 0 6 7" xmlns="http:\/\/www.w3.org\/2000\/svg"/;"	n	uri:http://www.w3.org/2000/svg
+ns409317270101	docs/styles/Default/images/search-black.svg	/^<svg width="13" height="13" version="1.1" viewBox="0 0 13 13" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns43ab171f0101	docs/styles/Default/images/theme-switcher-dark.svg	/^<svg width="25" height="25" version="1.1" viewBox="0 0 25 25" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns4522263e0101	docs/styles/Default/images/menu-tab-packages-dark-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns491ab2ba0101	docs/styles/Default/images/menu-tab-modules-dark-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns4a6e967d0101	docs/styles/Default/images/search.svg	/^<svg width="13" height="13" version="1.1" viewBox="0 0 13 13" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns4fbfb2180101	docs/styles/Default/images/menu-tab-modules-dark-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns56a5a0870101	docs/styles/Default/images/menu-tab-database-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns5ba6dd2a0101	docs/styles/Default/images/search-class-black.svg	/^<svg width="12" height="12" version="1.1" viewBox="0 0 12 12" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns5d4a9fe50101	docs/styles/Default/images/menu-tab-database-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns5fea7e660101	docs/styles/Default/images/theme-menu-black.svg	/^<svg width="25" height="25" version="1.1" viewBox="0 0 25 25" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns6c84c7eb0101	docs/styles/Default/images/theme-switcher-hover-black.svg	/^<svg width="25" height="25" version="1.1" viewBox="0 0 25 25" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns6e8f61800101	docs/styles/Default/images/menu-tab-files.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns7ed38c600101	docs/styles/Default/images/menu-tab-classes-dark-selected.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns7fbc50950101	docs/styles/Default/images/menu-tab-modules-dark.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns8598f3160101	docs/styles/Default/images/menu-tab-packages-dark-selected-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns8c3df2740101	docs/styles/Default/images/menu-tab-packages-dark-selected-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns8d0675ac0101	docs/styles/Default/images/search-dark.svg	/^<svg width="13" height="13" version="1.1" viewBox="0 0 13 13" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns933cbbc60101	docs/styles/Default/images/menu-tab-modules.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns9996ea450101	docs/styles/Default/images/menu-tab-files-dark-selected.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns9b9241250101	docs/styles/Default/images/menu-tab-files-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns9d0aa46a0101	docs/styles/Default/images/menu-tab-files-dark-selected-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+ns9d5736740101	docs/styles/Default/images/search-class-dark-125.svg	/^<svg width="12" height="12" version="1.1" viewBox="0 0 15 15" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsa12c04410101	docs/styles/Default/images/theme-switcher-hover.svg	/^<svg width="25" height="25" version="1.1" viewBox="0 0 25 25" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsa23740830101	docs/styles/Default/images/menu-tab-files-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsa26c621c0101	docs/styles/Default/images/theme-menu-autolightdark.svg	/^<svg width="25" height="25" version="1.1" viewBox="0 0 25 25" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsa2818eef0101	docs/styles/Default/images/menu-tab-classes-dark-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsa3afa3c80101	docs/styles/Default/images/menu-tab-files-dark-selected-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsa3fc35d20101	docs/styles/Default/images/search-class-dark-150.svg	/^<svg width="12" height="12" version="1.1" viewBox="0 0 18 18" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsa9268e4d0101	docs/styles/Default/images/menu-tab-classes-dark-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsab21c70b0101	docs/styles/Default/images/menu-tab-modules-dark-selected.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsabe6bf1e0101	docs/styles/Default/images/search-group-arrow-dark.svg	/^<svg width="6" height="7" version="1.1" viewBox="0 0 6 7" xmlns="http:\/\/www.w3.org\/2000\/svg"/;"	n	uri:http://www.w3.org/2000/svg
+nsad631df00101	docs/styles/Default/images/theme-switcher-hover-dark.svg	/^<svg width="25" height="25" version="1.1" viewBox="0 0 25 25" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsb04f4e6b0101	docs/styles/Default/images/menu-tab-modules-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsb3665fe20101	docs/styles/Default/images/menu-tab-database.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsb6f44dc90101	docs/styles/Default/images/menu-tab-modules-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsb876ad7d0101	docs/styles/Default/images/menu-folder-arrow-dark-hover.svg	/^<svg width="6" height="7" version="1.1" viewBox="0 0 6 7" xmlns="http:\/\/www.w3.org\/2000\/svg"/;"	n	uri:http://www.w3.org/2000/svg
+nsbfe469b40101	docs/styles/Default/images/menu-tab-files-dark-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsc070474c0101	docs/styles/Default/images/menu-tab-database-dark-selected-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsc22215e50101	docs/styles/Default/images/search-class-125.svg	/^<svg width="12" height="12" version="1.1" viewBox="0 0 15 15" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsc3ccb0af0101	docs/styles/Default/images/search-group-arrow.svg	/^<svg width="6" height="7" version="1.1" viewBox="0 0 6 7" xmlns="http:\/\/www.w3.org\/2000\/svg"/;"	n	uri:http://www.w3.org/2000/svg
+nsc68969120101	docs/styles/Default/images/menu-tab-files-dark-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsc71546aa0101	docs/styles/Default/images/menu-tab-database-dark-selected-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsc8c715430101	docs/styles/Default/images/search-class-150.svg	/^<svg width="12" height="12" version="1.1" viewBox="0 0 18 18" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nscbcbe6fa0101	docs/styles/Default/images/theme-switcher-black.svg	/^<svg width="25" height="25" version="1.1" viewBox="0 0 25 25" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nscbe8074f0101	docs/styles/Default/images/search-class-dark.svg	/^<svg width="12" height="12" version="1.1" viewBox="0 0 12 12" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsd35d9a8f0101	docs/styles/Default/images/menu-tab-files-dark.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsdaf2d6400101	docs/styles/Default/images/search-class.svg	/^<svg width="12" height="12" version="1.1" viewBox="0 0 12 12" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsdd84b6560101	docs/styles/Default/images/menu-tab-database-dark-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nse429b5b40101	docs/styles/Default/images/menu-tab-database-dark-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsf0dce6310101	docs/styles/Default/images/menu-tab-database-dark.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsf34975800101	docs/styles/Default/images/menu-tab-classes-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsf9ee74de0101	docs/styles/Default/images/menu-tab-classes-150.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 24 24" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsf9f381cf0101	docs/styles/Default/images/search-class-black-125.svg	/^<svg width="12" height="12" version="1.1" viewBox="0 0 15 15" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsfd2a6c270101	docs/styles/Default/images/menu-tab-database-dark-selected.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 16 16" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+nsfea274300101	docs/styles/Default/images/menu-tab-modules-dark-selected-125.svg	/^<svg width="16" height="16" version="1.1" viewBox="0 0 20 20" xmlns="http:\/\/www.w3.org\/2000\//;"	n	uri:http://www.w3.org/2000/svg
+offsetLeft	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	p	class:GetFullOffsets.result
+offsetTop	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	p	class:GetFullOffsets.result
+originalClientX	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:OnMouseDown.sizerDragging
+originalOnLoad	docs/styles/SamsStyles/custom.js	/^(function(){var originalOnLoad=NDLoader.OnLoad_Frame;NDLoader.OnLoad_Frame=function(){if(origina/;"	v
+originalOnLoad	docs/styles/SamsStyles/themes.js	/^(function(){var originalOnLoad=NDLoader.OnLoad_Frame;NDLoader.OnLoad_Frame=function(){NDFramePag/;"	v
+originalOnLoad	nd-config/SamsStyles/custom.js	/^    var originalOnLoad = NDLoader.OnLoad_Frame;$/;"	v
+originalOnLoad	nd-config/SamsStyles/themes.js	/^    var originalOnLoad = NDLoader.OnLoad_Frame;$/;"	v
+originalPanelWidth	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:OnMouseDown.sizerDragging
+originalSizerX	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:OnMouseDown.sizerDragging
+originalStart	docs/styles/SamsStyles/theme-toggle.js	/^(function(){var originalStart=NDThemeSwitcher.Start;NDThemeSwitcher.Start=function(){originalSta/;"	v
+originalStart	nd-config/SamsStyles/theme-toggle.js	/^    var originalStart = NDThemeSwitcher.Start;$/;"	v
+pageElements	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	c	class:Start
+panel	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:OnMouseDown.sizerDragging
+ready	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	p	class:LoadMenuSection.entry
+result	docs/styles/DefaultJS/NDCore.js	/^"use strict";var NDCore=new function(){this.LoadJavaScript=function(path,id){var script=document/;"	c	class:GetFullOffsets
+result	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	c	class:Build
+result	docs/styles/DefaultJS/NDMenu.js	/^"use strict";var NDMenu=new function(){this.Start=function(){this.menuSections=[];this.firstUnus/;"	c	class:BuildEntries
+results	docs/styles/DefaultJS/NDSearch.js	/^"use strict";var NDSearch=new function(){this.Start=function(){this.searchFieldFocusEventHandler/;"	c	class:BuildResults
+sizer	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	p	class:OnMouseDown.sizerDragging
+sizerDragging	docs/styles/DefaultJS/NDFramePage.js	/^"use strict";var NDFramePage=new function(){this.Start=function(){this.resizeEventHandler=NDFram/;"	c	class:OnMouseDown

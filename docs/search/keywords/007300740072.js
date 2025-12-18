@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("str",["Struct","Module"],[["String",,[[,"string",,,0,"File:Builtin/asa.asa:string","AsaClass:string"],[,,,,1,"File:Builtin/asa.asa:String","AsaModule:String"]]]]);

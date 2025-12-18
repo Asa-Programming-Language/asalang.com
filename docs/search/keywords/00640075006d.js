@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("dum",["Function"],[["dump",,[["string",,,,0,"File:Builtin/asa.asa:string.dump","AsaClass:string:dump"]]]]);

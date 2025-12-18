@@ -1,1 +1,0 @@
-﻿NDSummary.OnToolTipsLoaded("AsaModule:ColorPrint",{32:"<div class=\"NDToolTip TModule LAsa\"><div class=\"TTSummary\">A builtin module for printing colored text to the terminal using ANSI escape codes</div></div>"});

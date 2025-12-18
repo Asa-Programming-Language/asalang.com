@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("AsaModule:ColorPrint.Back",{26:"<div class=\"NDToolTip TModule LAsa\"><div id=\"NDPrototype26\" class=\"NDPrototype\"><div class=\"PSection PPlainSection\">Back :: module</div></div><div class=\"TTSummary\">Module containing the background color codes used for printing colors</div></div>"});

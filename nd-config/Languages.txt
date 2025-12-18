@@ -27,10 +27,13 @@ Language: Asa
    Line Comment: //
    Block Comment: /* */
    Member Operator: .
+   Enum Values: Under Parent
+   Case Sensitive: Yes
 
    Class Prototype Enders: { } #
    Function Prototype Enders: ; { #
    Variable Prototype Enders: ; =
+   Module Prototype Enders: { #
 
 
 # These settings define the languages Natural Docs knows how to parse.  You

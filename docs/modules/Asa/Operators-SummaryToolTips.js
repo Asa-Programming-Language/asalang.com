@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("AsaModule:Operators",{91:"<div class=\"NDToolTip TModule LAsa\"><div id=\"NDPrototype91\" class=\"NDPrototype\"><div class=\"PSection PPlainSection\">Operators::module</div></div><div class=\"TTSummary\">A builtin module expanding operators for builtin types</div></div>"});

@@ -149,7 +149,7 @@ Source Folder: ../../ASA/modules
 # Generated Documentation
 # ------------------------------------------------------------------------
 
-HTML Output Folder: ../documentation
+HTML Output Folder: ../docs
 
 
 # This is where you tell Natural Docs what kind of documentation you want

@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("mem",["Module"],[["Memory",,[[,,,,0,"File:Builtin/asa.asa:Memory","AsaModule:Memory"]]]]);
