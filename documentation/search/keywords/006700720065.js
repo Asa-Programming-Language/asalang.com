@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("gre",["Constant"],[["green",,[["ColorPrint.Back",,,,0,"File:Builtin/colorprint.asa:ColorPrint.Back.green","AsaModule:ColorPrint.Back:green"],["ColorPrint.Fore",,,,0,"File:Builtin/colorprint.asa:ColorPrint.Fore.green","AsaModule:ColorPrint.Fore:green"]]]]);

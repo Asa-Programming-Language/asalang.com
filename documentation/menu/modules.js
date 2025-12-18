@@ -1,0 +1,1 @@
+﻿NDMenu.OnSectionLoaded("modules.js",[[1,"Casts"],[1,"ColorPrint"],[2,"ColorPrint","AsaModule:ColorPrint.",[[1,"Back"],[1,"Fore"]]],[1,"Memory"],[1,"Operators"],[1,"Print"],[1,"String"],[1,"Window"]]);

@@ -1,0 +1,175 @@
+/* Natural Docs Custom Styles for Asa Programming Language */
+
+/* Base typography - override default font to DejaVu Sans */
+body,
+#NDMenu,
+#NDSummary,
+.NDContentPage body,
+.CTitle,
+.CHeading,
+.CTopic p,
+.CTopic li,
+table.CDefinitionList,
+.MEntry,
+.SuEntry,
+#NDSearchField,
+.SeEntry,
+.HTitle,
+.HSubtitle,
+.HFooter {
+	font-family: "DejaVu Sans", arial, sans-serif !important;
+}
+
+/* Header customization - very dark, almost black */
+#NDHeader {
+	background-image: none !important;
+	background-color: #1A1A1A !important;
+	position: relative;
+	border-bottom: 3px solid #FFFFFF !important;
+}
+
+.DarkTheme #NDHeader {
+	background-image: none !important;
+	background-color: #0D0D0D !important;
+	box-shadow: none !important;
+	border-bottom: 3px solid #FFFFFF !important;
+}
+
+/* Title and Subtitle font - Futura Bold with padding for logo */
+#HTitle {
+	font-family: "Futura Bold", "Futura", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+	font-weight: bold;
+	padding-left: 73px !important;
+}
+
+#HSubtitle {
+	font-family: "Futura Bold", "Futura", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif !important;
+	font-weight: bold;
+	padding-left: 73px !important;
+}
+
+/* Extend the clickable link area to include logo */
+#HTitle a,
+#HSubtitle a {
+	position: static;
+	display: inline-block;
+	max-width: calc(100% - 300px);
+}
+
+#HTitle a::before {
+	content: "";
+	position: absolute;
+	left: 0.7rem;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 60px;
+	height: 60px;
+	background-image: url('https://github.com/Asa-Programming-Language/Asa/blob/main/media/ASA-medium.png?raw=true');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* Hide Files and Classes tabs - show only Modules */
+#MFileTab,
+#MClassTab {
+	display: none !important;
+}
+
+/* Hide theme switcher dropdown menu */
+#NDThemeSwitcherMenu {
+	display: none !important;
+}
+
+/* Make search bar wider and properly aligned */
+#NDSearchField {
+	width: 200px !important;
+	min-width: 200px !important;
+	max-width: 200px !important;
+}
+
+/* Code blocks and prototypes */
+.NDContentPage .CTopic pre,
+.NDPrototype {
+	font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Monaco, monospace;
+	border-radius: 6px !important;
+	border-width: 2px !important;
+}
+
+/* Syntax highlighting for code blocks - Light Theme */
+.LightTheme .c, .LightTheme .c1, .LightTheme .cm { color: #6c6c6c; font-style: italic; }
+.LightTheme .k { color: #d73a49; font-weight: bold; }
+.LightTheme .kt { color: #0086b3; }
+.LightTheme .kn { color: #8a6d3b; font-style: italic; }
+.LightTheme .nn { color: #d55000; }
+.LightTheme .kd { color: #e36209; font-style: italic; }
+.LightTheme .kc { color: #795da3; font-weight: bold; }
+.LightTheme .bp { color: #795da3; font-weight: bold; }
+.LightTheme .nf { color: #22863a; }
+.LightTheme .nv { color: #24292e; }
+.LightTheme .n { color: #24292e; }
+.LightTheme .nb { color: #22863a; }
+.LightTheme .o { color: #d73a49; }
+.LightTheme .p { color: #6c6c6c; }
+.LightTheme .m, .LightTheme .mi, .LightTheme .mf, .LightTheme .mh, .LightTheme .mo, .LightTheme .mb { color: #6f42c1; }
+.LightTheme .s, .LightTheme .s1, .LightTheme .s2 { color: #a67c00; }
+.LightTheme .sc { color: #a67c00; }
+.LightTheme .se { color: #795da3; }
+
+/* Syntax highlighting - Dark Theme */
+.DarkTheme .c, .DarkTheme .c1, .DarkTheme .cm { color: #8c8c8c; font-style: italic; }
+.DarkTheme .k { color: #ff7b7b; font-weight: bold; }
+.DarkTheme .kt { color: #5db8e0; }
+.DarkTheme .kn { color: #c9a569; font-style: italic; }
+.DarkTheme .nn { color: #ff8547; }
+.DarkTheme .kd { color: #ff9647; font-style: italic; }
+.DarkTheme .kc { color: #b89fe0; font-weight: bold; }
+.DarkTheme .bp { color: #b89fe0; font-weight: bold; }
+.DarkTheme .nf { color: #7ac97a; }
+.DarkTheme .nv { color: #dcdcdc; }
+.DarkTheme .n { color: #dcdcdc; }
+.DarkTheme .nb { color: #7ac97a; }
+.DarkTheme .o { color: #ff7b7b; }
+.DarkTheme .p { color: #8c8c8c; }
+.DarkTheme .m, .DarkTheme .mi, .DarkTheme .mf, .DarkTheme .mh, .DarkTheme .mo, .DarkTheme .mb { color: #c49fe0; }
+.DarkTheme .s, .DarkTheme .s1, .DarkTheme .s2 { color: #e0c060; }
+.DarkTheme .sc { color: #e0c060; }
+.DarkTheme .se { color: #b89fe0; }
+
+/* Inline code within paragraphs */
+.NDContentPage .CTopic p code {
+	background: #f5f5f5;
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1px 5px;
+	font-size: 0.9em;
+}
+
+.DarkTheme.NDContentPage .CTopic p code {
+	background: #2a2a2a;
+	border-color: #444;
+}
+
+/* Blockquotes */
+.NDContentPage blockquote {
+	background: #f9f9f9;
+	border-left: 4px solid #ccc;
+	margin: 1.5em 10px;
+	padding: 0.5em 10px;
+}
+
+.DarkTheme.NDContentPage blockquote {
+	background: #252525;
+	border-left-color: #555;
+}
+
+/* Make links in content slightly more visible */
+.NDContentPage .CTopic a:link,
+.NDContentPage .CTopic a:visited {
+	color: #0366d6;
+}
+
+.DarkTheme.NDContentPage .CTopic a:link,
+.DarkTheme.NDContentPage .CTopic a:visited {
+	color: #58a6ff;
+}

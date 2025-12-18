@@ -1,0 +1,1 @@
+﻿NDSummary.OnToolTipsLoaded("AsaModule:String",{4:"<div class=\"NDToolTip TModule LAsa\"><div class=\"TTSummary\">A builtin module defining the string type See Also: string</div></div>"});

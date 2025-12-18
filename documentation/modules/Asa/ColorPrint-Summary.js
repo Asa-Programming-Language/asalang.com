@@ -1,0 +1,1 @@
+﻿NDFramePage.OnPageTitleLoaded("AsaModule:ColorPrint","ColorPrint");NDSummary.OnSummaryLoaded("AsaModule:ColorPrint",[["Asa","Asa"]],[["Modules","Module"]],[[32,0,0,"ColorPrint"]]);

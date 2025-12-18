@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("mem",["Module","Function"],[["Memory",,[[,,,,0,"File:Builtin/asa.asa:Memory","AsaModule:Memory"]]],["Memory:free",,[[,,,,1,"File:Builtin/asa.asa:Memory.free","AsaModule:Memory:free"]]],["Memory:malloc",,[[,,,,1,"File:Builtin/asa.asa:Memory.malloc","AsaModule:Memory:malloc"]]]]);

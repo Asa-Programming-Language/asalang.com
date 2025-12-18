@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("bla",["Constant"],[["black",,[["ColorPrint.Back",,,,0,"File:Builtin/colorprint.asa:ColorPrint.Back.black","AsaModule:ColorPrint.Back:black"],["ColorPrint.Fore",,,,0,"File:Builtin/colorprint.asa:ColorPrint.Fore.black","AsaModule:ColorPrint.Fore:black"]]]]);

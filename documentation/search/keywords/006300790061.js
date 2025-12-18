@@ -1,0 +1,1 @@
+﻿NDSearch.OnPrefixDataLoaded("cya",["Constant"],[["cyan",,[["ColorPrint.Back",,,,0,"File:Builtin/colorprint.asa:ColorPrint.Back.cyan","AsaModule:ColorPrint.Back:cyan"],["ColorPrint.Fore",,,,0,"File:Builtin/colorprint.asa:ColorPrint.Fore.cyan","AsaModule:ColorPrint.Fore:cyan"]]]]);
