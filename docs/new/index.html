@@ -504,8 +504,20 @@ document.addEventListener('DOMContentLoaded', function() {
         text-align: center;
     }
 
+    .sidebar-section-title {
+        padding: 0.75rem 0.75rem 0.5rem 1.25rem;
+        font-family: "DejaVu Sans", arial, sans-serif;
+        font-size: 10pt;
+        font-weight: bold;
+        color: var(--sidebar-link);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        border-bottom: 1px solid var(--search-border);
+        transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
     .namespace-nav {
-        padding: 0;
+        padding: 0.5rem 0 0 0;
         width: 100%;
     }
 
@@ -586,8 +598,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div class="search-results" id="search-results"></div>
 
+<div class="sidebar-section-title">Modules</div>
+
 <nav class="namespace-nav">
     <ul class="namespace-list">
+
+            <li class="namespace-item" data-namespace="Builtin">
+                <div class="namespace-header">
+                    <a href="Builtin.html" class="namespace-link" data-ns-name="Builtin">Builtin</a>
+                </div>
+
+                <ul class="namespace-children">
 
             <li class="namespace-item" data-namespace="List">
                 <div class="namespace-header">
@@ -677,10 +698,67 @@ document.addEventListener('DOMContentLoaded', function() {
             </li>
 
 
+                </ul>
+
+            </li>
+
+
+            <li class="namespace-item" data-namespace="Rendering">
+                <div class="namespace-header">
+                    <a href="Rendering.html" class="namespace-link" data-ns-name="Rendering">Rendering</a>
+                </div>
+
+                <ul class="namespace-children">
+
             <li class="namespace-item" data-namespace="Window">
                 <div class="namespace-header">
                     <a href="Window.html" class="namespace-link" data-ns-name="Window">Window</a>
                 </div>
+
+            </li>
+
+
+            <li class="namespace-item" data-namespace="3D">
+                <div class="namespace-header">
+                    <a href="3D.html" class="namespace-link" data-ns-name="3D">3D</a>
+                </div>
+
+                <ul class="namespace-children">
+
+            <li class="namespace-item" data-namespace="Mesh">
+                <div class="namespace-header">
+                    <a href="Mesh.html" class="namespace-link" data-ns-name="Mesh">Mesh</a>
+                </div>
+
+            </li>
+
+
+                </ul>
+
+            </li>
+
+
+            <li class="namespace-item" data-namespace="General">
+                <div class="namespace-header">
+                    <a href="General.html" class="namespace-link" data-ns-name="General">General</a>
+                </div>
+
+                <ul class="namespace-children">
+
+            <li class="namespace-item" data-namespace="Line">
+                <div class="namespace-header">
+                    <a href="Line.html" class="namespace-link" data-ns-name="Line">Line</a>
+                </div>
+
+            </li>
+
+
+                </ul>
+
+            </li>
+
+
+                </ul>
 
             </li>
 

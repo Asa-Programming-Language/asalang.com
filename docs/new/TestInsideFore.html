@@ -113,16 +113,22 @@
             padding: 0.6rem 1.25rem;
         }
 
+        .module-header {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
         h1 {
             font-family: "DejaVu Sans", arial, sans-serif;
             font-size: 1.5rem;
             font-weight: 600;
             color: var(--content-text);
-            line-height: 120%;
-            padding-bottom: 0.15em;
-            //border-bottom: 1px solid var(--border-color);
-            margin-bottom: 0.5rem;
+            padding-bottom: 0;
+            margin-bottom: 0;
             transition: color 0.3s ease, border-color 0.3s ease;
+            flex-shrink: 0;
         }
 
         h2 {
@@ -177,6 +183,70 @@
             color: var(--content-text);
             margin: 0 0 8px 0;
             transition: color 0.3s ease;
+        }
+
+        .import-statement {
+            flex-shrink: 0;
+        }
+
+        .import-statement .codehilite {
+            margin: 0;
+            width: auto;
+            overflow: visible;
+            max-width: none;
+            position: relative;
+        }
+
+        .import-statement .codehilite pre {
+            margin: 0;
+            padding: 0.25rem 2.5rem 0.25rem 0.65rem;
+            background-color: transparent;
+            border: 2px solid var(--code-border);
+            border-radius: 8px;
+            font-size: 10pt;
+            overflow: visible;
+            white-space: nowrap;
+            transition: border-color 0.3s ease, opacity 0.3s ease;
+        }
+
+        .copy-import-btn {
+            position: absolute;
+            top: 50%;
+            right: 0.35rem;
+            transform: translateY(-50%);
+            background: var(--page-bg);
+            border: 1px solid var(--code-border);
+            border-radius: 6px;
+            padding: 0.25rem;
+            color: var(--content-text);
+            cursor: pointer;
+            opacity: 0.6;
+            transition: opacity 0.3s ease, background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            line-height: 1;
+        }
+
+        .copy-import-btn:hover {
+            opacity: 1;
+            background-color: var(--code-bg);
+        }
+
+        .copy-import-btn.copied {
+            opacity: 1;
+            border-color: #4CAF50;
+            color: #4CAF50;
+        }
+
+        html.dark-theme .copy-import-btn.copied,
+        body.dark-theme .copy-import-btn.copied {
+            border-color: #66BB6A;
+            color: #66BB6A;
+        }
+
+        .copy-import-btn svg {
+            display: block;
         }
 
         .description {
@@ -547,7 +617,44 @@
             scrollbar-width: thin;
             scrollbar-color: #30363d #0d1117;
         }
+
+        /* Directory listing styles */
+        .directory-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .directory-item {
+            padding: 0.75rem 1rem;
+            margin: 0.5rem 0;
+            border: 1px solid var(--border-color);
+            border-radius: 4px;
+            background: var(--content-bg);
+        }
+
+        .directory-item a {
+            color: var(--link-color);
+            text-decoration: none;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .directory-item a:hover {
+            text-decoration: underline;
+        }
+
+        .directory-type {
+            font-size: 0.85rem;
+            color: #666;
+            margin-left: 0.5rem;
+        }
+
+        html.dark-theme .directory-type,
+        body.dark-theme .directory-type {
+            color: #999;
+        }
     </style>
+
 </head>
 <body>
 <div class="page-container">
@@ -874,8 +981,20 @@ document.addEventListener('DOMContentLoaded', function() {
         text-align: center;
     }
 
+    .sidebar-section-title {
+        padding: 0.75rem 0.75rem 0.5rem 1.25rem;
+        font-family: "DejaVu Sans", arial, sans-serif;
+        font-size: 10pt;
+        font-weight: bold;
+        color: var(--sidebar-link);
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        border-bottom: 1px solid var(--search-border);
+        transition: color 0.3s ease, border-color 0.3s ease;
+    }
+
     .namespace-nav {
-        padding: 0;
+        padding: 0.5rem 0 0 0;
         width: 100%;
     }
 
@@ -956,8 +1075,17 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <div class="search-results" id="search-results"></div>
 
+<div class="sidebar-section-title">Modules</div>
+
 <nav class="namespace-nav">
     <ul class="namespace-list">
+
+            <li class="namespace-item" data-namespace="Builtin">
+                <div class="namespace-header">
+                    <a href="Builtin.html" class="namespace-link" data-ns-name="Builtin">Builtin</a>
+                </div>
+
+                <ul class="namespace-children">
 
             <li class="namespace-item" data-namespace="List">
                 <div class="namespace-header">
@@ -1047,10 +1175,67 @@ document.addEventListener('DOMContentLoaded', function() {
             </li>
 
 
+                </ul>
+
+            </li>
+
+
+            <li class="namespace-item" data-namespace="Rendering">
+                <div class="namespace-header">
+                    <a href="Rendering.html" class="namespace-link" data-ns-name="Rendering">Rendering</a>
+                </div>
+
+                <ul class="namespace-children">
+
             <li class="namespace-item" data-namespace="Window">
                 <div class="namespace-header">
                     <a href="Window.html" class="namespace-link" data-ns-name="Window">Window</a>
                 </div>
+
+            </li>
+
+
+            <li class="namespace-item" data-namespace="3D">
+                <div class="namespace-header">
+                    <a href="3D.html" class="namespace-link" data-ns-name="3D">3D</a>
+                </div>
+
+                <ul class="namespace-children">
+
+            <li class="namespace-item" data-namespace="Mesh">
+                <div class="namespace-header">
+                    <a href="Mesh.html" class="namespace-link" data-ns-name="Mesh">Mesh</a>
+                </div>
+
+            </li>
+
+
+                </ul>
+
+            </li>
+
+
+            <li class="namespace-item" data-namespace="General">
+                <div class="namespace-header">
+                    <a href="General.html" class="namespace-link" data-ns-name="General">General</a>
+                </div>
+
+                <ul class="namespace-children">
+
+            <li class="namespace-item" data-namespace="Line">
+                <div class="namespace-header">
+                    <a href="Line.html" class="namespace-link" data-ns-name="Line">Line</a>
+                </div>
+
+            </li>
+
+
+                </ul>
+
+            </li>
+
+
+                </ul>
 
             </li>
 
@@ -1237,7 +1422,26 @@ document.addEventListener('DOMContentLoaded', function() {
 
         <!-- Main Content -->
         <div class="main-content">
-    <h1>TestInsideFore</h1>
+    <div class="module-header">
+        <h1>TestInsideFore</h1>
+        <!-- Import statement -->
+        <div class="import-statement">
+            <div class="codehilite">
+                <pre><span class="kn">#import</span> <span class="n">Builtin</span><span class="p">:</span><span class="n">TestInsideFore</span><span class="p">;</span></pre>
+                <button class="copy-import-btn" onclick="copyImportStatement(this)"
+                        data-import="#import Builtin:TestInsideFore;"
+                        title="Copy import statement">
+                    <svg class="icon-clipboard" width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.75 1C5.61193 1 5.5 1.11193 5.5 1.25V2H4.25C3.55964 2 3 2.55964 3 3.25V13.75C3 14.4404 3.55964 15 4.25 15H11.75C12.4404 15 13 14.4404 13 13.75V3.25C13 2.55964 12.4404 2 11.75 2H10.5V1.25C10.5 1.11193 10.3881 1 10.25 1H5.75ZM7 2.5V2H9V2.5H7ZM4.5 3.25C4.5 3.38807 4.61193 3.5 4.75 3.5H5.5V4C5.5 4.27614 5.72386 4.5 6 4.5H10C10.2761 4.5 10.5 4.27614 10.5 4V3.5H11.25C11.3881 3.5 11.5 3.61193 11.5 3.75V13.25C11.5 13.3881 11.3881 13.5 11.25 13.5H4.75C4.61193 13.5 4.5 13.3881 4.5 13.25V3.25Z" fill="currentColor"/>
+                    </svg>
+                    <svg class="icon-check" width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
+                        <path d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z" fill="currentColor"/>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
 
     <p class="description">Module containing nothing</p>
 
@@ -1269,6 +1473,31 @@ window.addEventListener('message', function(event) {
         }
     }
 });
+
+// Copy import statement to clipboard
+function copyImportStatement(button) {
+    const importText = button.getAttribute('data-import');
+    const clipboardIcon = button.querySelector('.icon-clipboard');
+    const checkIcon = button.querySelector('.icon-check');
+
+    navigator.clipboard.writeText(importText).then(function() {
+        // Swap icons and add copied style
+        clipboardIcon.style.display = 'none';
+        checkIcon.style.display = 'block';
+        button.classList.add('copied');
+        button.title = 'Copied!';
+
+        // Reset after 2 seconds
+        setTimeout(function() {
+            clipboardIcon.style.display = 'block';
+            checkIcon.style.display = 'none';
+            button.classList.remove('copied');
+            button.title = 'Copy import statement';
+        }, 2000);
+    }).catch(function(err) {
+        console.error('Failed to copy text: ', err);
+    });
+}
 </script>
         </div><!-- .main-content -->
     </div><!-- .content-wrapper -->

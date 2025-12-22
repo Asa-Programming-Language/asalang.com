@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Print - Asa</title>
+    <title>General - Asa</title>
 
     <link rel="icon" type="image/png" href="https://github.com/Asa-Programming-Language/Asa/blob/main/media/ASA-medium.png?raw=true">
 
@@ -869,7 +869,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     </div>
 
-    <!-- Content Wrapper -->
     <div class="content-wrapper">
         <!-- Sidebar -->
         <div class="sidebar-container">
@@ -1245,7 +1244,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <script>
 (function() {
-    const currentModule = 'Print';
+    const currentModule = 'General';
 
     // Function to set active page
     function setActivePage(pageName) {
@@ -1422,212 +1421,22 @@ document.addEventListener('DOMContentLoaded', function() {
 
         <!-- Main Content -->
         <div class="main-content">
-    <div class="module-header">
-        <h1>Print</h1>
-        <!-- Import statement -->
-        <div class="import-statement">
-            <div class="codehilite">
-                <pre><span class="kn">#import</span> <span class="n">Builtin</span><span class="p">:</span><span class="n">Print</span><span class="p">;</span></pre>
-                <button class="copy-import-btn" onclick="copyImportStatement(this)"
-                        data-import="#import Builtin:Print;"
-                        title="Copy import statement">
-                    <svg class="icon-clipboard" width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5.75 1C5.61193 1 5.5 1.11193 5.5 1.25V2H4.25C3.55964 2 3 2.55964 3 3.25V13.75C3 14.4404 3.55964 15 4.25 15H11.75C12.4404 15 13 14.4404 13 13.75V3.25C13 2.55964 12.4404 2 11.75 2H10.5V1.25C10.5 1.11193 10.3881 1 10.25 1H5.75ZM7 2.5V2H9V2.5H7ZM4.5 3.25C4.5 3.38807 4.61193 3.5 4.75 3.5H5.5V4C5.5 4.27614 5.72386 4.5 6 4.5H10C10.2761 4.5 10.5 4.27614 10.5 4V3.5H11.25C11.3881 3.5 11.5 3.61193 11.5 3.75V13.25C11.5 13.3881 11.3881 13.5 11.25 13.5H4.75C4.61193 13.5 4.5 13.3881 4.5 13.25V3.25Z" fill="currentColor"/>
-                    </svg>
-                    <svg class="icon-check" width="14" height="14" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" style="display: none;">
-                        <path d="M13.78 4.22a.75.75 0 010 1.06l-7.25 7.25a.75.75 0 01-1.06 0L2.22 9.28a.75.75 0 011.06-1.06L6 10.94l6.72-6.72a.75.75 0 011.06 0z" fill="currentColor"/>
-                    </svg>
-                </button>
+            <h1>General</h1>
+            <p class="description" style="text-indent: 0; font-style: italic; opacity: 0.7;">Directory</p>
+
+
+            <div class="section-content">
+                <ul class="directory-list">
+
+                    <li class="directory-item">
+                        <a href="Line.html">Line</a>
+
+                        <span class="directory-type">(module)</span>
+
+                    </li>
+
+                </ul>
             </div>
-        </div>
-    </div>
-
-
-    <p class="description">A builtin module for printing things to the terminal</p>
-
-
-
-    <h2>Functions</h2>
-    <hr>
-    <div class="section-content">
-    <div class="functions-list">
-
-        <div class="function-item" id="print(*char)">
-
-			<h3 class="function-header">print(*char)</h3>
-
-
-
-            <div class="function-content">
-
-                <div class="prototype"><pre><span class="n">print</span> <span class="o">::</span> <span class="p">(</span><span class="n">s</span> <span class="p">:</span> <span class="kd">exact</span> <span class="o">*</span><span class="kt">char</span><span class="p">,</span> ...<span class="p">)</span> </pre></div>
-
-
-                <p class="function-description">A function for printing a character array to the terminal</p>
-
-
-                <div class="function-parameters">
-                    <h4>Arguments</h4>
-                    <div class="parameter-list">
-
-                        <div class="parameter-item">
-                            <div class="param-info">
-                                <div class="param-name">s</div>
-
-                                <div class="param-type">exact *char</div>
-
-                            </div>
-                            <div class="param-description">The <code class="codehilite"><span class="o">*</span><span class="kt">char</span></code> to print.</div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-
-
-        <div class="function-item" id="printl(*char)">
-
-			<h3 class="function-header">printl(*char)</h3>
-
-
-
-            <div class="function-content">
-
-                <div class="prototype"><pre><span class="n">printl</span> <span class="o">::</span> <span class="p">(</span><span class="n">s</span> <span class="p">:</span> <span class="kd">exact</span> <span class="o">*</span><span class="kt">char</span><span class="p">,</span> ...<span class="p">)</span> </pre></div>
-
-
-                <p class="function-description">A function for printing a character array to the terminal with a newline</p>
-
-
-                <div class="function-parameters">
-                    <h4>Arguments</h4>
-                    <div class="parameter-list">
-
-                        <div class="parameter-item">
-                            <div class="param-info">
-                                <div class="param-name">s</div>
-
-                                <div class="param-type">exact *char</div>
-
-                            </div>
-                            <div class="param-description">The character array to print.</div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-
-
-        <div class="function-item" id="newline()">
-
-			<h3 class="function-header">newline()</h3>
-
-
-
-            <div class="function-content">
-
-                <div class="prototype"><pre><span class="n">newline</span> <span class="o">::</span> <span class="p">(</span><span class="p">)</span> </pre></div>
-
-
-                <p class="function-description">A function for printing a newline to the terminal</p>
-
-
-
-
-            </div>
-        </div>
-
-
-        <div class="function-item" id="print(int)">
-
-			<h3 class="function-header">print(int)</h3>
-
-
-
-            <div class="function-content">
-
-                <div class="prototype"><pre><span class="n">print</span> <span class="o">::</span> <span class="p">(</span><span class="n">n</span> <span class="p">:</span> <span class="kt">int64</span><span class="p">)</span> </pre></div>
-
-
-                <p class="function-description">A function for printing an <code class="codehilite"><span class="kt">int</span></code> to the terminal, converted to a string</p>
-
-
-                <div class="function-parameters">
-                    <h4>Arguments</h4>
-                    <div class="parameter-list">
-
-                        <div class="parameter-item">
-                            <div class="param-info">
-                                <div class="param-name">n</div>
-
-                                <div class="param-type">int64</div>
-
-                            </div>
-                            <div class="param-description">The integer to print.</div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-
-
-        <div class="function-item" id="printl(int)">
-
-			<h3 class="function-header">printl(int)</h3>
-
-
-
-            <div class="function-content">
-
-                <div class="prototype"><pre><span class="n">printl</span> <span class="o">::</span> <span class="p">(</span><span class="n">n</span> <span class="p">:</span> <span class="kt">int64</span><span class="p">)</span> </pre></div>
-
-
-                <p class="function-description">A function for printing an <code class="codehilite"><span class="kt">int</span></code> to the terminal, converted to a string, with a newline</p>
-
-
-                <div class="function-parameters">
-                    <h4>Arguments</h4>
-                    <div class="parameter-list">
-
-                        <div class="parameter-item">
-                            <div class="param-info">
-                                <div class="param-name">n</div>
-
-                                <div class="param-type">int64</div>
-
-                            </div>
-                            <div class="param-description">The integer to print.</div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-
-            </div>
-        </div>
-
-
-    </div>
-    </div>
-
-
-
-
-
-
 
 
 <script>
@@ -1649,31 +1458,6 @@ window.addEventListener('message', function(event) {
         }
     }
 });
-
-// Copy import statement to clipboard
-function copyImportStatement(button) {
-    const importText = button.getAttribute('data-import');
-    const clipboardIcon = button.querySelector('.icon-clipboard');
-    const checkIcon = button.querySelector('.icon-check');
-
-    navigator.clipboard.writeText(importText).then(function() {
-        // Swap icons and add copied style
-        clipboardIcon.style.display = 'none';
-        checkIcon.style.display = 'block';
-        button.classList.add('copied');
-        button.title = 'Copied!';
-
-        // Reset after 2 seconds
-        setTimeout(function() {
-            clipboardIcon.style.display = 'block';
-            checkIcon.style.display = 'none';
-            button.classList.remove('copied');
-            button.title = 'Copy import statement';
-        }, 2000);
-    }).catch(function(err) {
-        console.error('Failed to copy text: ', err);
-    });
-}
 </script>
         </div><!-- .main-content -->
     </div><!-- .content-wrapper -->

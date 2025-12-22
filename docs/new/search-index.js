@@ -1,5 +1,10 @@
 const SEARCH_INDEX = [
   {
+    "name": "Builtin",
+    "page": "Builtin.html",
+    "type": "directory"
+  },
+  {
     "description": "Contains the {{DOCLINK:list}} data type",
     "name": "List",
     "page": "List.html",
@@ -646,9 +651,36 @@ const SEARCH_INDEX = [
     "type": "constant"
   },
   {
+    "name": "Rendering",
+    "page": "Rendering.html",
+    "type": "directory"
+  },
+  {
     "description": "A module for window and rendering functionality",
     "name": "Window",
     "page": "Window.html",
+    "type": "namespace"
+  },
+  {
+    "name": "3D",
+    "page": "3D.html",
+    "type": "directory"
+  },
+  {
+    "description": "A module for handling and drawing meshes to a window",
+    "name": "Mesh",
+    "page": "Mesh.html",
+    "type": "namespace"
+  },
+  {
+    "name": "General",
+    "page": "General.html",
+    "type": "directory"
+  },
+  {
+    "description": "A module for rendering lines to a window",
+    "name": "Line",
+    "page": "Line.html",
     "type": "namespace"
   }
 ];
