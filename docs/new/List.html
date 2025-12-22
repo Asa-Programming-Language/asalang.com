@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Back - Asa</title>
+    <title>List - Asa</title>
 
     <link rel="icon" type="image/png" href="https://github.com/Asa-Programming-Language/Asa/blob/main/media/ASA-medium.png?raw=true">
 
@@ -1060,7 +1060,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 <script>
 (function() {
-    const currentModule = 'Back';
+    const currentModule = 'List';
 
     // Function to set active page
     function setActivePage(pageName) {
@@ -1237,213 +1237,33 @@ document.addEventListener('DOMContentLoaded', function() {
 
         <!-- Main Content -->
         <div class="main-content">
-    <h1>Back</h1>
+    <h1>List</h1>
 
-    <p class="description">Module containing the background color codes used for printing colors</p>
-
-
+    <p class="description">Contains the <a class="reference-link" href="List.html#list">list</a> data type</p>
 
 
 
 
 
-    <h2>Constants</h2>
+    <h2>Structs</h2>
     <hr>
     <div class="section-content">
-    <div class="constants-list">
+    <div class="structs-list">
 
-        <div class="constant-item" id="black">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">black</div>
+        <div class="struct-item" id="list">
+            <h3 class="struct-name">list</h3>
+            <div class="struct-content">
 
-                </div>
-                <div class="param-description">black color</div>
-            </div>
-        </div>
+                <p class="struct-description">A dynamically allocated list structure</p>
 
-        <div class="constant-item" id="red">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">red</div>
 
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">red color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="green">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">green</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">green color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="yellow">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">yellow</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">yellow color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="blue">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">blue</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">blue color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="magenta">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">magenta</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">magenta color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="cyan">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">cyan</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">cyan color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="white">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">white</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">white color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="brightBlack">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">brightBlack</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">brightBlack color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="brightRed">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">brightRed</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">brightRed color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="brightGreen">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">brightGreen</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">brightGreen color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="brightYellow">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">brightYellow</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">brightYellow color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="brightBlue">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">brightBlue</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">brightBlue color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="brightMagenta">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">brightMagenta</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">brightMagenta color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="brightCyan">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">brightCyan</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">brightCyan color</div>
-            </div>
-        </div>
-
-        <div class="constant-item" id="brightWhite">
-            <div class="parameter-item">
-                <div class="param-info">
-                    <div class="param-name">brightWhite</div>
-
-                    <div class="param-type">string</div>
-
-                </div>
-                <div class="param-description">brightWhite color</div>
             </div>
         </div>
 
     </div>
     </div>
+
+
 
 
 

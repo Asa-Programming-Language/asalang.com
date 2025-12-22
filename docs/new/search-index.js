@@ -1,5 +1,18 @@
 const SEARCH_INDEX = [
   {
+    "description": "Contains the {{DOCLINK:list}} data type",
+    "name": "List",
+    "page": "List.html",
+    "type": "namespace"
+  },
+  {
+    "description": "A dynamically allocated list structure",
+    "name": "list",
+    "page": "List.html#list",
+    "parent": "List",
+    "type": "struct"
+  },
+  {
     "description": "A builtin module for printing things to the terminal",
     "name": "Print",
     "page": "Print.html",
@@ -7,36 +20,36 @@ const SEARCH_INDEX = [
   },
   {
     "description": "A function for printing a character array to the terminal",
-    "name": "print",
-    "page": "Print.html#print",
+    "name": "print(*char)",
+    "page": "Print.html#print(*char)",
     "parent": "Print",
     "type": "function"
   },
   {
     "description": "A function for printing a character array to the terminal with a newline",
-    "name": "printl",
-    "page": "Print.html#printl",
+    "name": "printl(*char)",
+    "page": "Print.html#printl(*char)",
     "parent": "Print",
     "type": "function"
   },
   {
     "description": "A function for printing a newline to the terminal",
-    "name": "newline",
-    "page": "Print.html#newline",
+    "name": "newline()",
+    "page": "Print.html#newline()",
     "parent": "Print",
     "type": "function"
   },
   {
     "description": "A function for printing an <code class=\"codehilite\"><span class=\"kt\">int</span></code> to the termin",
-    "name": "print",
-    "page": "Print.html#print",
+    "name": "print(int)",
+    "page": "Print.html#print(int)",
     "parent": "Print",
     "type": "function"
   },
   {
     "description": "A function for printing an <code class=\"codehilite\"><span class=\"kt\">int</span></code> to the termin",
-    "name": "printl",
-    "page": "Print.html#printl",
+    "name": "printl(int)",
+    "page": "Print.html#printl(int)",
     "parent": "Print",
     "type": "function"
   },
@@ -297,15 +310,15 @@ const SEARCH_INDEX = [
   },
   {
     "description": "Allocates a block of memory\n",
-    "name": "malloc",
-    "page": "Memory.html#malloc",
+    "name": "malloc(int)",
+    "page": "Memory.html#malloc(int)",
     "parent": "Memory",
     "type": "function"
   },
   {
     "description": "Frees a block of memory previously allocated by malloc\n",
-    "name": "free",
-    "page": "Memory.html#free",
+    "name": "free(pointer)",
+    "page": "Memory.html#free(pointer)",
     "parent": "Memory",
     "type": "function"
   },
@@ -323,29 +336,29 @@ const SEARCH_INDEX = [
     "type": "struct"
   },
   {
-    "name": "size",
-    "page": "String.html#size",
+    "name": "size()",
+    "page": "String.html#size()",
     "parent": "String::string",
     "type": "method"
   },
   {
     "description": "Prints the string to the terminal *without* a newline",
-    "name": "print",
-    "page": "String.html#print",
+    "name": "print()",
+    "page": "String.html#print()",
     "parent": "String::string",
     "type": "method"
   },
   {
     "description": "Prints the string to the terminal *with* a newline",
-    "name": "printl",
-    "page": "String.html#printl",
+    "name": "printl()",
+    "page": "String.html#printl()",
     "parent": "String::string",
     "type": "method"
   },
   {
     "description": "Prints all of the info related to the string instance to the terminal",
-    "name": "dump",
-    "page": "String.html#dump",
+    "name": "dump()",
+    "page": "String.html#dump()",
     "parent": "String::string",
     "type": "method"
   },
@@ -371,8 +384,15 @@ const SEARCH_INDEX = [
   },
   {
     "description": "Prints a string to the terminal with the specified color, then resets color formatting",
-    "name": "colorPrint",
-    "page": "ColorPrint.html#colorPrint",
+    "name": "colorPrint(string, color)",
+    "page": "ColorPrint.html#colorPrint(string, color)",
+    "parent": "ColorPrint",
+    "type": "function"
+  },
+  {
+    "description": "Prints a string to the terminal with the specified foreground and background colors, then resets col",
+    "name": "colorPrint(string, fg color, bg color)",
+    "page": "ColorPrint.html#colorPrint(string, fg color, bg color)",
     "parent": "ColorPrint",
     "type": "function"
   },
