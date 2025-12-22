@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asa - Home</title>
+
+    <link rel="icon" type="image/png" href="https://github.com/Asa-Programming-Language/Asa/blob/main/media/ASA-medium.png?raw=true">
+
     <script src="search-index.js"></script>
     <script>
         // Apply theme immediately before rendering to prevent flash
@@ -97,10 +100,29 @@
         }
 
         .home-logo {
-            width: 300px;
+			margin:auto;
             height: 300px;
             object-fit: contain;
             margin-bottom: 2rem;
+            transition: opacity 0.3s ease;
+        }
+
+        .home-logo-light {
+            display: block;
+        }
+
+        .home-logo-dark {
+            display: none;
+        }
+
+        html.dark-theme .home-logo-light,
+        body.dark-theme .home-logo-light {
+            display: none;
+        }
+
+        html.dark-theme .home-logo-dark,
+        body.dark-theme .home-logo-dark {
+            display: block;
         }
 
         .home-description {
@@ -539,7 +561,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
     .namespace-children .namespace-link {
         padding-left: 2.5rem;
-        font-size: 9.5pt;
     }
 
     .namespace-children .namespace-children .namespace-link {
@@ -840,6 +861,11 @@ document.addEventListener('DOMContentLoaded', function() {
         <div class="main-content">
             <div class="home-content">
 
+    
+                <img src="https://github.com/Asa-Programming-Language/Asa/blob/main/media/ASA-Full-light.png?raw=true" alt="Asa" class="home-logo home-logo-light">
+                <img src="https://github.com/Asa-Programming-Language/Asa/blob/main/media/ASA-Full.png?raw=true" alt="Asa" class="home-logo home-logo-dark">
+    
+
 
                 <p class="home-description">Welcome to the Asa Standard Library documentation. 
 Browse the modules on the left to explore the built-in functions and types that make up the Asa programming language.
@@ -858,6 +884,20 @@ Browse the modules on the left to explore the built-in functions and types that 
 if (document.documentElement.classList.contains('dark-theme')) {
     document.body.classList.add('dark-theme');
 }
+
+// Listen for theme changes from other frames
+window.addEventListener('message', function(event) {
+    if (event.data.type === 'themeChange') {
+        const isDark = event.data.theme === 'dark';
+        if (isDark) {
+            document.documentElement.classList.add('dark-theme');
+            document.body.classList.add('dark-theme');
+        } else {
+            document.documentElement.classList.remove('dark-theme');
+            document.body.classList.remove('dark-theme');
+        }
+    }
+});
 </script>
 </body>
 </html>
