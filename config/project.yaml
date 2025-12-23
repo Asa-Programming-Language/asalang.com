@@ -6,7 +6,7 @@ project_subtitle: "Standard Library Documentation"
 source_dirs:
   - ../ASA/modules
 
-output_dir: ./output
+output_dir: ./docs
 
 logo: "https://github.com/Asa-Programming-Language/Asa/blob/main/media/ASA-medium.png?raw=true"
 
